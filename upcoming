@@ -1,0 +1,3113 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ICO Watch List - Upcoming Crypto Token Crowdsales</title>
+	<meta name="description" content="Don't miss any upcoming ICOs (Initial Coin Offering) & new Token Crowdsales. Ultimate list for token buyers on the ICO Watch List!">
+	<base href="https://icowatchlist.com">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+
+	
+	
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>	
+	
+	<script src="https://icowatchlist.com/static/disclaimer_alert.js"></script>	
+
+	<link rel="stylesheet" href="https://icowatchlist.com/style.css">
+
+	
+		
+	
+	<link rel="icon" type="image/png" sizes="16x16" href="https://icowatchlist.com/images/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://icowatchlist.com/images/favicon-32x32.png">
+
+	<meta property="og:title" content="ICO Watch List - Upcoming Crypto Token Crowdsales"/>
+	<meta property='og:image' content='https://icowatchlist.com/images/social_logo.jpg'/>	
+	<meta property="og:site_name" content="ICO Watch List"/>
+	<meta property="og:description" content="Don't miss any upcoming ICOs (Initial Coin Offering) & new Token Crowdsales. Ultimate list for token buyers on the ICO Watch List!"/>
+
+		
+
+	
+	<script>
+		$(document).ready(function() {
+			$(".menu-icon").click(function(){
+				if ($(".menu-box").is(":visible")) $(".menu-box").hide();
+				else $(".menu-box").show();
+				$(".share-box").hide();
+			});
+			
+			$(".share-icon").click(function(){
+				if ($(".share-box").is(":visible")) $(".share-box").hide();
+				else $(".share-box").show();
+				$(".menu-box").hide();
+			});
+						
+			$("#investors-list").click(function(){
+				
+			});
+		});	
+		
+		
+		
+	</script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-100951548-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>	
+	
+	
+	
+	
+	  <link rel="manifest" href="/manifest.json">
+	  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+	  <script>
+		var OneSignal = window.OneSignal || [];
+		OneSignal.push(["init", {
+		  appId: "1a39bd8d-a310-41c0-9fab-6106140d6f20",
+		  autoRegister: false,
+		  notifyButton: {
+			enable: false /* Set to false to hide */
+		  },
+		  welcomeNotification: {
+			"title": "Thanks for Subscribing",
+			"message": "We'll Keep You Updated!",
+			// "url": "" /* Leave commented for the notification to not open a window on Chrome and Firefox (on Safari, it opens to your webpage) */
+		  },
+		  promptOptions: {
+			/* actionMessage limited to 90 characters */
+			actionMessage: "We'd like to show you notifications for the latest ICOs, news and updates.",
+			/* acceptButtonText limited to 15 characters */
+			acceptButtonText: "ALLOW",
+			/* cancelButtonText limited to 15 characters */
+			cancelButtonText: "NO THANKS"
+		  }
+		}]);
+		OneSignal.push(function() {
+		  OneSignal.showHttpPrompt();
+		});
+	  </script>	
+	
+	</head>
+	
+	
+	
+<body>	
+
+<div class="container">
+
+
+	<div class="row" style='position:fixed;top:0px;background-color:#fefefe;z-index:100000000;width:100%;max-width:1170px;border-bottom:1px gray solid;'>
+
+			<a href='https://icowatchlist.com'><img src='images/logo3.png' style='width:120px;float:left;' alt='ICO Watch List' title='ICO Watch List'></a>
+			
+			<div class='main-menu'>
+				<div class='menu-icon'><img src='images/menu.png'></div>
+				<!--<a href=''><div class='list-button' id='investors-list'>Investor's List</div></a>-->
+				<div class="menu-box">
+					<a href='live'><p class='menu-link'>Live ICO List</p></a>
+					<a href='upcoming'><p class='menu-link'>Upcoming ICO List</p></a>
+					<a href='finished'><p class='menu-link'>Closed ICO List</p></a>				
+					<a href='add-ico'><p class='menu-link'>Add ICO</p></a>
+					<a href='blog'><p class='menu-link'>Our Blog</p></a>
+					<a href='info'><p class='menu-link'>Important Info</p></a>
+					<a href='education'><p class='menu-link mobile-menu-link'>Full ICO Guide</p></a>
+					<a href='statistics'><p class='menu-link mobile-menu-link'>ICO Statistics</p></a>
+				</div>
+				
+				<div class='share-icon'><img src='images/share.png'></div>
+				<!--<a href=''><div class='list-button' id='investors-list'>Investor's List</div></a>-->
+				<div class="share-box">
+					<div class="addthis_inline_share_toolbox"></div>
+				</div>
+			</div>
+			
+				
+			<div class='menu-link-header'>
+				<a href='statistics'>STATISTICS</a>
+			</div>
+			<div class='menu-link-header'>
+				<a href='education'>GUIDES</a>
+			</div>
+			<div class='menu-link-header'>
+				<a href='https://icowatchlist.com'>ICO LIST</a>
+			</div>
+			
+	</div>	<div class="row" style='margin-top:80px;padding:10px;'>
+		<h1 class='h1-title'>Upcoming ICO List</h1>
+		<p>
+			Discover the best upcoming ICOs. The following token crowdsales will start soon.
+			Watch this crytocurrency ICO list regularly to stay up to date with the most promising projects in the cryptoeconomics space. <br/>Positions on this page such as gold & silver are sponsored and are <u><b>NOT</b></u> an indicator of the quality of the ICO. 
+		</p>
+	</div>
+	
+	<div class="row">
+	
+		<div class='table-tabs'>
+			<a href='https://icowatchlist.com/live'>
+				<div class='tab'>
+					LIVE ICOs
+				</div>
+			</a>
+			
+			<a href='https://icowatchlist.com/upcoming'>
+				<div class='tab selected-tab'>
+					UPCOMING ICOs
+				</div>
+			</a>
+			
+			<a href='https://icowatchlist.com/finished'>
+				<div class='tab'>
+					FINISHED ICOs
+				</div>
+			</a>
+		</div>
+
+		<div class='table-dropdown-div'>
+			<select class='ico-table-dropdown'>
+				<option value='live'>Live ICOs</option>
+				<option value='upcoming' selected>Upcoming ICOs</option>
+				<option value='finished'>Finished ICOs</option>
+			</select>
+		</div>
+	</div>
+
+	<script>
+		$( ".ico-table-dropdown" ).change(function() {
+		  window.location.href = 'https://icowatchlist.com/'+$(this).val();
+		});	
+	</script>
+
+
+
+		<div class="row">
+			<table class="main-ico-table titles-table">
+				<tr>
+					<th>
+						<div class="row">
+								<div class='logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>PROJECT</div>
+								<div class='description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>INFO</div>						
+								<div class='date-div col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>START</div>
+								<div class='countdown-div hidden-xs col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>TIME</div>								
+								<div class='button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'></div>						
+						</div>
+					</th>
+					
+				</tr>
+			</table>
+		</div>
+	
+		<!---- HOT ----->
+				
+		
+		<div class="row">
+			<table class="main-ico-table">
+								<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/arcona';">
+						<div class="row" style='position:relative;'>
+						
+						
+						<a href='info/how-to-use-our-platform/' target='_blank'><img src='images/gold-label.png' class='sponsored-label' style='position:absolute;top:0px;right:15px;z-index:1000000;'></a>
+							
+							
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/arcona' style='text-decoration: none;'>
+										<img src='logos/arcona.png' class='project-logo' alt='Arcona ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Gaming/AR/VR</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Blockchain powered augmented reality ecosystem merging real and virtual worlds worldwide, creating augmented reality layer - the Digital Land.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>15 April 2018</b></p><p style='font-size:14px;'>Time: <b>00:00</b></p>								
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>07</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-14 22:00:00||2018-04-15 00:00:00||7||8 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>08</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/arcona' title='Arcona ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/gochain';">
+						<div class="row" style='position:relative;'>
+						
+						
+						<a href='info/how-to-use-our-platform/' target='_blank'><img src='images/gold-label.png' class='sponsored-label' style='position:absolute;top:0px;right:15px;z-index:1000000;'></a>
+							
+							
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/gochain' style='text-decoration: none;'>
+										<img src='logos/gochain.png' class='project-logo' alt='GoChain ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Blockchain Platform</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>GoChain is a scalable, Ethereum based smart contract blockchain that is fast, secure and green.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>01 May 2018</b></p><p style='font-size:14px;'>Time: <b>00:00</b></p>								
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'><a href='presale' style='color:#ffae00;font-weight:bold;'>PRESALE</a> STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>23</p>
+				<!-- 2018-04-07 01:47:45pm||2018-05-01 08:00:00||2018-05-01 00:00:00||23||18 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>18</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/gochain' title='GoChain ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/ftec';">
+						<div class="row" style='position:relative;'>
+						
+						
+						<a href='info/how-to-use-our-platform/' target='_blank'><img src='images/gold-label.png' class='sponsored-label' style='position:absolute;top:0px;right:15px;z-index:1000000;'></a>
+							
+							
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/ftec' style='text-decoration: none;'>
+										<img src='logos/ftec.png' class='project-logo' alt='FTEC ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Prediction Market</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>FTEC is an ecosystem of intelligent services and neural networks for conducting effective trading activities on cryptocurrency markets.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>11 April 2018</b></p><p style='font-size:14px;'>Time: <b>14:00</b></p>								
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'><a href='presale' style='color:#ffae00;font-weight:bold;'>PRESALE</a> STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>04</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-11 14:00:00||2018-04-11 14:00:00||4||0 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>00</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/ftec' title='FTEC ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/botchain';">
+						<div class="row" style='position:relative;'>
+						
+						
+						<a href='info/how-to-use-our-platform/' target='_blank'><img src='images/gold-label.png' class='sponsored-label' style='position:absolute;top:0px;right:15px;z-index:1000000;'></a>
+							
+							
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/botchain' style='text-decoration: none;'>
+										<img src='logos/botchain.png' class='project-logo' alt='BotChain ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Data/Computing/AI</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Infrastructure for Trust and Audit of AI Systems. It helps with increased adoption of AI.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>08 May 2018</b></p><p style='font-size:14px;'>Time: <b>00:00</b></p>								
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'><a href='presale' style='color:#ffae00;font-weight:bold;'>PRESALE</a> STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>30</p>
+				<!-- 2018-04-07 01:47:45pm||2018-05-08 05:00:00||2018-05-08 00:00:00||0||15 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>15</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/botchain' title='BotChain ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/verasity';">
+						<div class="row" style='position:relative;'>
+						
+						
+						<a href='info/how-to-use-our-platform/' target='_blank'><img src='images/gold-label.png' class='sponsored-label' style='position:absolute;top:0px;right:15px;z-index:1000000;'></a>
+							
+							
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/verasity' style='text-decoration: none;'>
+										<img src='logos/verasity.png' class='project-logo' alt='Verasity ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Media/Content</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Verasity is a next-generation video sharing platform designed to liberate creators and benefit viewers.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>01 May 2018</b></p><p style='font-size:14px;'>Time: <b>00:00</b></p>								
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'><a href='presale' style='color:#ffae00;font-weight:bold;'>PRESALE</a> STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>23</p>
+				<!-- 2018-04-07 01:47:45pm||2018-05-01 05:00:00||2018-05-01 00:00:00||23||15 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>15</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/verasity' title='Verasity ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/multiversum';">
+						<div class="row" style='position:relative;'>
+						
+						
+						<a href='info/how-to-use-our-platform/' target='_blank'><img src='images/gold-label.png' class='sponsored-label' style='position:absolute;top:0px;right:15px;z-index:1000000;'></a>
+							
+							
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/multiversum' style='text-decoration: none;'>
+										<img src='logos/multiversum.png' class='project-logo' alt='Multiversum ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Blockchain Platform</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>4th Generation Blockchain with a Multidimensional Structure (POS).</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>16 April 2018</b></p><p style='font-size:14px;'>Time: <b>00:00</b></p>								
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>08</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-15 23:00:00||2018-04-16 00:00:00||8||9 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>09</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/multiversum' title='Multiversum ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/mobilebridge';">
+						<div class="row" style='position:relative;'>
+						
+						
+						<a href='info/how-to-use-our-platform/' target='_blank'><img src='images/gold-label.png' class='sponsored-label' style='position:absolute;top:0px;right:15px;z-index:1000000;'></a>
+							
+							
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/mobilebridge' style='text-decoration: none;'>
+										<img src='logos/mobilebridge.png' class='project-logo' alt='MobileBridge ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Content/Advertising</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>The blockchain and crypto-token based marketing automation platform.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>26 April 2018</b></p><p style='font-size:14px;'>Time: <b>00:00</b></p>								
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>18</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-26 00:00:00||2018-04-26 00:00:00||18||10 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>10</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/mobilebridge' title='MobileBridge ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/databroker-dao';">
+						<div class="row" style='position:relative;'>
+						
+						
+						<a href='info/how-to-use-our-platform/' target='_blank'><img src='images/gold-label.png' class='sponsored-label' style='position:absolute;top:0px;right:15px;z-index:1000000;'></a>
+							
+							
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/databroker-dao' style='text-decoration: none;'>
+										<img src='logos/databroker-dao.png' class='project-logo' alt='DataBroker DAO ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Data/Computing/AI</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>DataBroker DAO is the first marketplace to sell & buy sensor data.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>26 April 2018</b></p><p style='font-size:14px;'>Time: <b>16:00</b></p>								
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>19</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-26 15:00:00||2018-04-26 16:00:00||19||1 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>01</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/databroker-dao' title='DataBroker DAO ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/coti';">
+						<div class="row" style='position:relative;'>
+						
+						
+						<a href='info/how-to-use-our-platform/' target='_blank'><img src='images/gold-label.png' class='sponsored-label' style='position:absolute;top:0px;right:15px;z-index:1000000;'></a>
+							
+							
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/coti' style='text-decoration: none;'>
+										<img src='logos/coti.png' class='project-logo' alt='COTI ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Payments/Wallets</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>COTI is a payments transactions network that was built from the ground-up to solve the payments challenges of today.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>30 April 2018</b></p><p style='font-size:14px;'>Time: <b>11:00</b></p>								
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>22</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-30 11:00:00||2018-04-30 11:00:00||22||21 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>21</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/coti' title='COTI ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/friendup';">
+						<div class="row" style='position:relative;'>
+						
+						
+						<a href='info/how-to-use-our-platform/' target='_blank'><img src='images/gold-label.png' class='sponsored-label' style='position:absolute;top:0px;right:15px;z-index:1000000;'></a>
+							
+							
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/friendup' style='text-decoration: none;'>
+										<img src='logos/friendup.png' class='project-logo' alt='FriendUP ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Data/Computing/AI</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>The ultimate digital ecosystem platform.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>16 April 2018</b></p><p style='font-size:14px;'>Time: <b>18:47</b></p>								
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>09</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-16 18:47:00||2018-04-16 18:47:00||9||4 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>04</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>59</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/friendup' title='FriendUP ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/koranetwork';">
+						<div class="row" style='position:relative;'>
+						
+						
+						<a href='info/how-to-use-our-platform/' target='_blank'><img src='images/gold-label.png' class='sponsored-label' style='position:absolute;top:0px;right:15px;z-index:1000000;'></a>
+							
+							
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/koranetwork' style='text-decoration: none;'>
+										<img src='logos/koranetwork.png' class='project-logo' alt='Kora Network ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Finance</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Infrastructure for building inclusive financial systems for all and sundry using blockchain.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>23 April 2018</b></p><p style='font-size:14px;'>Time: <b>12:00</b></p>								
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>15</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-23 12:00:00||2018-04-23 12:00:00||15||22 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>22</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/koranetwork' title='Kora Network ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/deedcoin';">
+						<div class="row" style='position:relative;'>
+						
+						
+						<a href='info/how-to-use-our-platform/' target='_blank'><img src='images/gold-label.png' class='sponsored-label' style='position:absolute;top:0px;right:15px;z-index:1000000;'></a>
+							
+							
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/deedcoin' style='text-decoration: none;'>
+										<img src='logos/deedcoin.png' class='project-logo' alt='Deedcoin ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Real Estate</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Deedcoin is the blockchain of the real estate industry, reducing commissions by over 80% with licensed agents anywhere.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>21 May 2018</b></p><p style='font-size:14px;'>Time: <b>10:00</b></p>								
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>44</p>
+				<!-- 2018-04-07 01:47:45pm||2018-05-21 15:00:00||2018-05-21 10:00:00||14||1 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>01</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/deedcoin' title='Deedcoin ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/streamity';">
+						<div class="row" style='position:relative;'>
+						
+						
+						<a href='info/how-to-use-our-platform/' target='_blank'><img src='images/gold-label.png' class='sponsored-label' style='position:absolute;top:0px;right:15px;z-index:1000000;'></a>
+							
+							
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/streamity' style='text-decoration: none;'>
+										<img src='logos/streamity.png' class='project-logo' alt='Streamity ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Asset Management</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>The key element of STREAMITY is StreamDesk decentralized application for exchange of cryptocurrency to fiat.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>16 April 2018</b></p><p style='font-size:14px;'>Time: <b>12:00</b></p>								
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>09</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-16 20:00:00||2018-04-16 12:00:00||9||6 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>06</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/streamity' title='Streamity ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									
+			</table>
+		</div>
+
+		
+		<!---- REGULAR & STICKY----->
+		<div class="row">
+			<table class="main-ico-table"  style="border-top:0px;">
+								<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/pr-network';">
+						<div class="row"  style='position:relative;'>
+						
+												
+							<a href='info/how-to-use-our-platform/' target='_blank'><img src='images/silver-label.png' class='sponsored-label' style='position:absolute;top:0px;right:15px;z-index:1000000;'></a>
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/pr-network' style='text-decoration: none;'>
+										<img src='logos/pr-network.png' class='project-logo' alt='PR Network ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Social Network</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>PR.network is an incentive-based voting protocol designed to decentralized the reputation and value of everything.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>20 April 2018</b></p><p style='font-size:14px;'>Time: <b>12:12</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'><a href='presale' style='color:#ffae00;font-weight:bold;'>PRESALE</a> STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>12</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-20 12:12:00||2018-04-20 12:12:00||12||22 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>22</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>24</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/pr-network' title='PR Network ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/immvrse';">
+						<div class="row"  style='position:relative;'>
+						
+												
+							<a href='info/how-to-use-our-platform/' target='_blank'><img src='images/silver-label.png' class='sponsored-label' style='position:absolute;top:0px;right:15px;z-index:1000000;'></a>
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/immvrse' style='text-decoration: none;'>
+										<img src='logos/immvrse.png' class='project-logo' alt='ImmVRse ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Gaming/AR/VR</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Decentralised platform for VR Content Creators, Brands and Viewers.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>TBD</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+									<p style='color:#00c06d;font-size:24px;padding:20px 0px;'>TBD</p>								</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/immvrse' title='ImmVRse ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/gizadevice';">
+						<div class="row"  style='position:relative;'>
+						
+												
+							<a href='info/how-to-use-our-platform/' target='_blank'><img src='images/silver-label.png' class='sponsored-label' style='position:absolute;top:0px;right:15px;z-index:1000000;'></a>
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/gizadevice' style='text-decoration: none;'>
+										<img src='logos/gizadevice.png' class='project-logo' alt='Giza Device ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Payments/Wallets</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Hardware Wallet & Password Manager.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>01 October 2018</b></p><p style='font-size:14px;'>Time: <b>12:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>173</p>
+				<!-- 2018-04-07 01:47:45pm||2018-10-01 12:00:00||2018-10-01 12:00:00||23||22 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>22</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/gizadevice' title='Giza Device ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/all-stocks-network';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/all-stocks-network' style='text-decoration: none;'>
+										<img src='logos/all-stocks-network.png' class='project-logo' alt='All-Stocks Network ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Prediction Market</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>The ALLSTOCKS Network is a distributed global stock exchange platform which aims to interface with all major stock exchanges and stock brokers around the world.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>15 April 2018</b></p><p style='font-size:14px;'>Time: <b>00:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'><a href='presale' style='color:#ffae00;font-weight:bold;'>PRESALE</a> STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>07</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-14 22:00:00||2018-04-15 00:00:00||7||8 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>08</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/all-stocks-network' title='All-Stocks Network ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/earthmedz';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/earthmedz' style='text-decoration: none;'>
+										<img src='logos/earthmedz.png' class='project-logo' alt='Earthmedz ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Drugs/Health</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Ensuring the accessibility of efficient healthcare globally using blockchain.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>20 April 2018</b></p><p style='font-size:14px;'>Time: <b>10:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>12</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-20 10:00:00||2018-04-20 10:00:00||12||20 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>20</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/earthmedz' title='Earthmedz ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/bhom';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/bhom' style='text-decoration: none;'>
+										<img src='logos/bhom.png' class='project-logo' alt='BHOM ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Real Estate</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Decentralized Property Transaction & Investment Platform.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>TBD</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+									<p style='color:#00c06d;font-size:24px;padding:20px 0px;'>TBD</p>								</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/bhom' title='BHOM ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/nickelcoin';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/nickelcoin' style='text-decoration: none;'>
+										<img src='logos/nickelcoin.png' class='project-logo' alt='Nickelcoin ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Jobs/Marketplace</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Deploying Blockchain tehnology to Customerâs Loyalty Rewards.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>12 April 2018</b></p><p style='font-size:14px;'>Time: <b>00:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'><a href='presale' style='color:#ffae00;font-weight:bold;'>PRESALE</a> STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>04</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-12 00:00:00||2018-04-12 00:00:00||4||10 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>10</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/nickelcoin' title='Nickelcoin ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/konios';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/konios' style='text-decoration: none;'>
+										<img src='logos/konios.png' class='project-logo' alt='Konios ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Finance</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>The worldâs most secure cash & crypto platform.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>01 May 2018</b></p><p style='font-size:14px;'>Time: <b>00:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>23</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-30 23:00:00||2018-05-01 00:00:00||23||9 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>09</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/konios' title='Konios ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/sportscastr-fanchain';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/sportscastr-fanchain' style='text-decoration: none;'>
+										<img src='logos/sportscastr-fanchain.png' class='project-logo' alt='SportsCastr FanChain ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Entertainment</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Sports Token and Decentralized Ecosystem That Knows Your Favorite Team.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>TBD</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+									<p style='color:#00c06d;font-size:24px;padding:20px 0px;'>TBD</p>								</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/sportscastr-fanchain' title='SportsCastr FanChain ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/shivom';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/shivom' style='text-decoration: none;'>
+										<img src='logos/shivom.png' class='project-logo' alt='Shivom ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Drugs/Health</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>The Global Blockchain-Genomics Ecosystem Powering the Next Era of Precision Medicine</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>16 April 2018</b></p><p style='font-size:14px;'>Time: <b>13:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>08</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-16 13:00:00||2018-04-16 13:00:00||8||23 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>23</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/shivom' title='Shivom ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/odyfund';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/odyfund' style='text-decoration: none;'>
+										<img src='logos/odyfund.png' class='project-logo' alt='Odyfund ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>IoT</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Fundraising platform linked to a humanitarian crypto emergency fund.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>15 April 2018</b></p><p style='font-size:14px;'>Time: <b>12:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'><a href='presale' style='color:#ffae00;font-weight:bold;'>PRESALE</a> STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>07</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-15 12:00:00||2018-04-15 12:00:00||7||22 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>22</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/odyfund' title='Odyfund ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/one1';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/one1' style='text-decoration: none;'>
+										<img src='logos/one1.png' class='project-logo' alt='One+1 ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>IoT</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>A token that integrates business and charity into a single effective ecosystem.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>10 April 2018</b></p><p style='font-size:14px;'>Time: <b>12:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>02</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-10 12:00:00||2018-04-10 12:00:00||2||22 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>22</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/one1' title='One+1 ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/iame-identity';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/iame-identity' style='text-decoration: none;'>
+										<img src='logos/iame-identity.png' class='project-logo' alt='IAME Identity ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Security/Identity</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Making compromised information âhack-worthlessâ. It makes use of distributed ledger system to ensure that people's identifications are secure.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>18 April 2018</b></p><p style='font-size:14px;'>Time: <b>00:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'><a href='presale' style='color:#ffae00;font-weight:bold;'>PRESALE</a> STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>10</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-18 00:00:00||2018-04-18 00:00:00||10||10 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>10</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/iame-identity' title='IAME Identity ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/lunes-platform';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/lunes-platform' style='text-decoration: none;'>
+										<img src='logos/lunes-platform.png' class='project-logo' alt='Lunes Platform ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Payments/Wallets</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Lunes is a platform which provides a set of decentralized solutions through blockchain.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>15 April 2018</b></p><p style='font-size:14px;'>Time: <b>00:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>07</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-15 03:00:00||2018-04-15 00:00:00||7||13 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>13</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/lunes-platform' title='Lunes Platform ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/auctus';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/auctus' style='text-decoration: none;'>
+										<img src='logos/auctus.png' class='project-logo' alt='Auctus ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Asset Management</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Smart Contract Powered Retirement Plans. AUCTUS Helps People Plan Ahead of Retirement</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>10 April 2018</b></p><p style='font-size:14px;'>Time: <b>14:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>03</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-10 14:00:00||2018-04-10 14:00:00||3||0 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>00</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/auctus' title='Auctus ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/alax';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/alax' style='text-decoration: none;'>
+										<img src='logos/alax.png' class='project-logo' alt='ALAX ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Gaming/AR/VR</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>The Blockchain Appstore Designed for Gamers.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>17 April 2018</b></p><p style='font-size:14px;'>Time: <b>10:30</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>09</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-17 10:30:00||2018-04-17 10:30:00||9||20 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>20</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>42</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/alax' title='ALAX ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/lendingblock';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/lendingblock' style='text-decoration: none;'>
+										<img src='logos/lendingblock.png' class='project-logo' alt='Lendingblock ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Finance</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Fully collateralised borrowing and lending of crypto assets.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>07 April 2018</b></p><p style='font-size:14px;'>Time: <b>15:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'><a href='presale' style='color:#ffae00;font-weight:bold;'>PRESALE</a> STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>00</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-07 15:00:00||2018-04-07 15:00:00||0||1 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>01</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/lendingblock' title='Lendingblock ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/binkd';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/binkd' style='text-decoration: none;'>
+										<img src='logos/binkd.png' class='project-logo' alt='BINKD ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Payments/Wallets</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Decentralized Cryptocurrency Exchange with Fiat onboarding</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>15 April 2018</b></p><p style='font-size:14px;'>Time: <b>06:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>07</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-15 06:00:00||2018-04-15 06:00:00||7||16 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>16</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/binkd' title='BINKD ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/adblurb';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/adblurb' style='text-decoration: none;'>
+										<img src='logos/adblurb.png' class='project-logo' alt='Adblurb ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Content/Advertising</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>The Future of Advertising. Adblur helps to make marketing and advertising very easy and it reduces costs.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>01 May 2018</b></p><p style='font-size:14px;'>Time: <b>00:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>23</p>
+				<!-- 2018-04-07 01:47:45pm||2018-05-01 00:00:00||2018-05-01 00:00:00||23||10 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>10</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/adblurb' title='Adblurb ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/iryo';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/iryo' style='text-decoration: none;'>
+										<img src='logos/iryo.png' class='project-logo' alt='Iryo ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Drugs/Health</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Blockchain driven healthcare network built on decentralising access to medical data.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>30 April 2018</b></p><p style='font-size:14px;'>Time: <b>14:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>23</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-30 14:00:00||2018-04-30 14:00:00||23||0 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>00</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/iryo' title='Iryo ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/coins4favors';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/coins4favors' style='text-decoration: none;'>
+										<img src='logos/coins4favors.png' class='project-logo' alt='Coins4Favors ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>IoT</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>A decentralized blockchain powered peer-to-peer platform for favors and mini-jobs around the world.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>15 May 2018</b></p><p style='font-size:14px;'>Time: <b>09:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'><a href='presale' style='color:#ffae00;font-weight:bold;'>PRESALE</a> STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>37</p>
+				<!-- 2018-04-07 01:47:45pm||2018-05-15 09:00:00||2018-05-15 09:00:00||7||19 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>19</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/coins4favors' title='Coins4Favors ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/bitguild';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/bitguild' style='text-decoration: none;'>
+										<img src='logos/bitguild.png' class='project-logo' alt='BitGuild ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Gaming/AR/VR</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>BitGuild will disrupt the gaming industry by creating a platform for games that live on the blockchain.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>TBD</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+									<p style='color:#00c06d;font-size:24px;padding:20px 0px;'>TBD</p>								</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/bitguild' title='BitGuild ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/cryptoflix';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/cryptoflix' style='text-decoration: none;'>
+										<img src='logos/cryptoflix.png' class='project-logo' alt='CryptoFlix ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Media/Content</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Blockchain streaming platform to disrupt the global TV.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>15 May 2018</b></p><p style='font-size:14px;'>Time: <b>00:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>37</p>
+				<!-- 2018-04-07 01:47:45pm||2018-05-15 00:00:00||2018-05-15 00:00:00||7||10 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>10</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/cryptoflix' title='CryptoFlix ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/diw-token';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/diw-token' style='text-decoration: none;'>
+										<img src='logos/diw-token.png' class='project-logo' alt='DIW Token ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Security/Identity</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>DIW is a secure blockchain-based digital platform which safeguards and secures your digital life.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>03 May 2018</b></p><p style='font-size:14px;'>Time: <b>12:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>25</p>
+				<!-- 2018-04-07 01:47:45pm||2018-05-03 12:00:00||2018-05-03 12:00:00||25||22 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>22</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/diw-token' title='DIW Token ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/unibright';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/unibright' style='text-decoration: none;'>
+										<img src='logos/unibright.png' class='project-logo' alt='Unibright ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Management Systems</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>The unified framework for blockchain based business integration.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>10 April 2018</b></p><p style='font-size:14px;'>Time: <b>13:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>02</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-10 13:00:00||2018-04-10 13:00:00||2||23 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>23</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/unibright' title='Unibright ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/dreamteam';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/dreamteam' style='text-decoration: none;'>
+										<img src='logos/dreamteam.png' class='project-logo' alt='DreamTeam ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Gaming/AR/VR</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>DreamTeam â the first Esports and Gaming recruitment and management network.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>12 April 2018</b></p><p style='font-size:14px;'>Time: <b>17:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>05</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-12 17:00:00||2018-04-12 17:00:00||5||3 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>03</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/dreamteam' title='DreamTeam ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/well';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/well' style='text-decoration: none;'>
+										<img src='logos/well.png' class='project-logo' alt='WELL ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Drugs/Health</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Healthcare Delivered. WELL.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>16 April 2018</b></p><p style='font-size:14px;'>Time: <b>08:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>08</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-16 08:00:00||2018-04-16 08:00:00||8||18 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>18</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/well' title='WELL ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/mira';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/mira' style='text-decoration: none;'>
+										<img src='logos/mira.png' class='project-logo' alt='Mira ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Payments/Wallets</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>Mira is a software suite for buying, storing and sending cryptocurrencies in an easy and convenient way.</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>20 April 2018</b></p><p style='font-size:14px;'>Time: <b>08:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>12</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-20 08:00:00||2018-04-20 08:00:00||12||18 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>18</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/mira' title='Mira ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									<tr>
+					<td style='cursor:pointer;' onclick="window.location = 'ico/smoke';">
+						<div class="row"  style='position:relative;'>
+						
+												
+						
+						
+						
+							<div class='db logo-div col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-2'>
+								<div style='margin:5px 15px;'>
+									<a href='ico/smoke' style='text-decoration: none;'>
+										<img src='logos/smoke.png' class='project-logo' alt='SMOKE ICO'>
+										<p style='text-align:center;'>
+										<span class='cat-span'  style='font-size:9px;color:#00c170;text-transform:uppercase;font-weight:600;padding:2px;border: 1px solid #00c06d;background-color: #c4ffe8;'>Drugs/Health</span>
+										</p>
+									</a>
+								</div>
+							</div>
+							
+							
+							<div class='db description-div  hidden-sm hidden-xs col-xs-8 col-sm-3 col-md-3 col-lg-3 col-xl-2'>
+								<div style='margin:15px;'>
+									<p class='project-info'>SMOKE is the cryptocurrency of the Smoke.Network. The first cannabis community to combine blockchain technology with soc</p>
+								</div>
+							</div>
+
+							<div class='db date-div hidden-xs col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-2'>
+								<div class='datetime-div' style='padding-top:10px;'>
+								<p style='font-size:14px;'>Date: <b>20 April 2018</b></p><p style='font-size:14px;'>Time: <b>12:00</b></p>		
+								</div>
+							</div>
+							
+							<div class='db countdown-div upcoming-countdown-div  col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2'>
+								<div class='countdown-inner-div'>
+												<p style='font-size:12px;margin:0px;'>STARTS IN:</p>			<div class='time-unit-div'>
+				<p class='project-time'>12</p>
+				<!-- 2018-04-07 01:47:45pm||2018-04-20 12:00:00||2018-04-20 12:00:00||12||22 -->
+				<p class='small-time'>Days</p>
+			</div>
+			<div class='time-unit-div'>
+				<p class='project-time'>22</p>
+				<p class='small-time'>Hours</p>
+			</div>
+			<div class='time-unit-div seconds'>
+				<p class='project-time'>12</p>
+				<p class='small-time'>Minutes</p>
+			</div>
+											</div>
+							</div>
+							
+
+							<div class='db button-div col-xs-4 col-sm-2 col-md-2 col-lg-2 col-xl-2'>
+								<div style='text-align: center;'>
+									<a href='ico/smoke' title='SMOKE ICO Details'><div class='progress-ico'>ICO Details</div></a>
+								</div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				
+									
+			</table>
+		</div>
+		<img src='images/ico-details-button-b.png' style='display:none;width:0px;height:0px;'>
+		
+					<!---- Junior ----->
+			<p class='junior-title'>More Upcoming ICOs</p>
+			<div class="row">
+				<table class="main-ico-table junior">
+										<tr>
+						<td style='cursor:pointer;' onclick="window.location = 'ico/trueplay';">
+							<div class="row">
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-name-junior'>TruePlay</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<p class='project-info-junior'>Fully functioning platform cre...</p>
+									</div>
+								</div>
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-date-junior'>2018-04-30 23:59:00 UTC+3</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<a href='ico/trueplay' class='project-link-junior'>TruePlay ICO Details</a>									</div>
+								</div>
+							</div>
+							
+						</td>
+					</tr>
+					
+											<tr>
+						<td style='cursor:pointer;' onclick="window.location = 'ico/mydfs';">
+							<div class="row">
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-name-junior'>MyDFS</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<p class='project-info-junior'>Blockchain-powered daily fanta...</p>
+									</div>
+								</div>
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-date-junior'>2018-05-07 23:59:00 UTC</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<a href='ico/mydfs' class='project-link-junior'>MyDFS ICO Details</a>									</div>
+								</div>
+							</div>
+							
+						</td>
+					</tr>
+					
+											<tr>
+						<td style='cursor:pointer;' onclick="window.location = 'ico/emarketchain';">
+							<div class="row">
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-name-junior'>eMarketChain</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<p class='project-info-junior'>The blockchain-powered e-comme...</p>
+									</div>
+								</div>
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-date-junior'>2018-05-15 14:00:00 UTC</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<a href='ico/emarketchain' class='project-link-junior'>eMarketChain ICO Details</a>									</div>
+								</div>
+							</div>
+							
+						</td>
+					</tr>
+					
+											<tr>
+						<td style='cursor:pointer;' onclick="window.location = 'ico/bounty-angels';">
+							<div class="row">
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-name-junior'>Bounty Angels</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<p class='project-info-junior'>A solution for Bounty hunters....</p>
+									</div>
+								</div>
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-date-junior'>2018-05-16 19:00:00 UTC</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<a href='ico/bounty-angels' class='project-link-junior'>Bounty Angels ICO Details</a>									</div>
+								</div>
+							</div>
+							
+						</td>
+					</tr>
+					
+											<tr>
+						<td style='cursor:pointer;' onclick="window.location = 'ico/renything';">
+							<div class="row">
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-name-junior'>Rentything</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<p class='project-info-junior'>Rentything - World's 1st Decen...</p>
+									</div>
+								</div>
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-date-junior'>2018-05-23 13:00:00 UTC</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<a href='ico/renything' class='project-link-junior'>Rentything ICO Details</a>									</div>
+								</div>
+							</div>
+							
+						</td>
+					</tr>
+					
+											<tr>
+						<td style='cursor:pointer;' onclick="window.location = 'ico/coinadvisor';">
+							<div class="row">
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-name-junior'>Coinadvisor</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<p class='project-info-junior'>Coinadvisor is a trading platf...</p>
+									</div>
+								</div>
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-date-junior'>2018-05-27 23:59:00 UTC+1</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<a href='ico/coinadvisor' class='project-link-junior'>Coinadvisor ICO Details</a>									</div>
+								</div>
+							</div>
+							
+						</td>
+					</tr>
+					
+											<tr>
+						<td style='cursor:pointer;' onclick="window.location = 'ico/safinus';">
+							<div class="row">
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-name-junior'>Safinus</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<p class='project-info-junior'>A platform that unites novice ...</p>
+									</div>
+								</div>
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-date-junior'>2018-06-02 23:59:00 UTC</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<a href='ico/safinus' class='project-link-junior'>Safinus ICO Details</a>									</div>
+								</div>
+							</div>
+							
+						</td>
+					</tr>
+					
+											<tr>
+						<td style='cursor:pointer;' onclick="window.location = 'ico/bioritmai';">
+							<div class="row">
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-name-junior'>BIORITMAI</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<p class='project-info-junior'>A PERSONALIZED MEDICINE OF THE...</p>
+									</div>
+								</div>
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-date-junior'>2018-06-16 00:00:00 UTC+3</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<a href='ico/bioritmai' class='project-link-junior'>BIORITMAI ICO Details</a>									</div>
+								</div>
+							</div>
+							
+						</td>
+					</tr>
+					
+											<tr>
+						<td style='cursor:pointer;' onclick="window.location = 'ico/plentix';">
+							<div class="row">
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-name-junior'>Plentix</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<p class='project-info-junior'>Connecting and rewarding parti...</p>
+									</div>
+								</div>
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-date-junior'>2018-06-17 12:00:00 UTC+11</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<a href='ico/plentix' class='project-link-junior'>Plentix ICO Details</a>									</div>
+								</div>
+							</div>
+							
+						</td>
+					</tr>
+					
+											<tr>
+						<td style='cursor:pointer;' onclick="window.location = 'ico/datareum';">
+							<div class="row">
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-name-junior'>Datareum</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<p class='project-info-junior'>Decentralized Marketplace for ...</p>
+									</div>
+								</div>
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-date-junior'>2018-07-02 12:00:00 UTC</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<a href='ico/datareum' class='project-link-junior'>Datareum ICO Details</a>									</div>
+								</div>
+							</div>
+							
+						</td>
+					</tr>
+					
+											<tr>
+						<td style='cursor:pointer;' onclick="window.location = 'ico/invest-in-brokers';">
+							<div class="row">
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-name-junior'>Invest in Brokers</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<p class='project-info-junior'>Social trustless copy-trading ...</p>
+									</div>
+								</div>
+								<div class='col-md-6'>
+									<div style='float:left;width:50%;'>
+										<p class='project-date-junior'>2018-07-15 12:00:00 UTC</p>
+									</div>
+									<div style='float:left;width:50%;'>
+										<a href='ico/invest-in-brokers' class='project-link-junior'>Invest in Brokers ICO Details</a>									</div>
+								</div>
+							</div>
+							
+						</td>
+					</tr>
+					
+											
+				</table>
+			</div>
+				<!-- 2018-04-07 13:47:45 -->
+	
+	<p class='' Style='margin:15px 10px 5px 0px;font-size:14px;font-weight:600;color:red;'>
+	* Kindly note that by making use of the ICOWatchlist platform, you agree to our <a href='disclaimer'>Disclaimer</a> & <a href='terms'>TOU</a> and are aware of the fact that <u>the platform does NOT give investment advice</u>. It is prudent to do your own research.
+	</p>
+
+	<p class='' Style='margin:5px 10px 25px 0px;font-size:14px;font-weight:600;'>
+	** Gold & Silver are sponsored positions. 
+	</p>
+
+	
+	<h1 class='h1-title'>Latest Blog Posts:</h1><div class='container'><div class='row'><div class='col-12 col-xs-12 col-sm-6 col-md-3 col-lg-3 col-xl-3' style='position:relative;margin-bottom:15px;'><a href='https://icowatchlist.com/blog/switzerland-ico-hub-making/'><img src='https://icowatchlist.com/blog/wp-content/uploads/2018/04/Switzerland.jpg' class='footer-post-image' alt='Switzerland â ICO Hub in the Making?'><div class='footer-post-bg'></div><div class='footer-post-title'>Switzerland â ICO Hub in the Making?</div></a></div><div class='col-12 col-xs-12 col-sm-6 col-md-3 col-lg-3 col-xl-3' style='position:relative;margin-bottom:15px;'><a href='https://icowatchlist.com/blog/kora-raises-4-million-pre-ico/'><img src='https://icowatchlist.com/blog/wp-content/uploads/2018/04/Kora-logo.jpg' class='footer-post-image' alt='Kora Raises $4 Million in Pre-ICO to Build a More Inclusive Financial System'><div class='footer-post-bg'></div><div class='footer-post-title'>Kora Raises $4 Million in Pre-ICO to Build a More Inclusive Financial System</div></a></div><div class='col-12 col-xs-12 col-sm-6 col-md-3 col-lg-3 col-xl-3' style='position:relative;margin-bottom:15px;'><a href='https://icowatchlist.com/blog/twitter-ceo-talks-blockchain/'><img src='https://icowatchlist.com/blog/wp-content/uploads/2018/04/Twitter-CEO.jpg' class='footer-post-image' alt='Twitter CEO Talks Blockchain'><div class='footer-post-bg'></div><div class='footer-post-title'>Twitter CEO Talks Blockchain</div></a></div><div class='col-12 col-xs-12 col-sm-6 col-md-3 col-lg-3 col-xl-3' style='position:relative;margin-bottom:15px;'><a href='https://icowatchlist.com/blog/bitcoin-not-security-says-israels-isa/'><img src='https://icowatchlist.com/blog/wp-content/uploads/2018/03/Israel.jpg' class='footer-post-image' alt='Bitcoin is not Security says Israelâs ISA'><div class='footer-post-bg'></div><div class='footer-post-title'>Bitcoin is not Security says Israelâs ISA</div></a></div></div></div><div style='text-align:center;width:100%;margin:20px 0px 20px 0px;'>
+				<span style='font-size:10px;'>_____ ADVERTISEMENT _____</span><br/>
+				<a href='https://tokensale.ab-chain.com/?utm_source=icowatchlistbanner/' target='_blank' rel='nofollow'><img src='https://icowatchlist.com/static/creatives/abchain_728x90.jpg' style='width:100%;max-width:728px;'></a></div>	
+	
+	
+	<div class='row footer-div footer-center'>	
+		<a href='https://twitter.com/icowatchlist' target='_blank'><img src='images/twitter.jpg' style='margin:10px;' border='0'></a>
+		<a href='https://t.me/joinchat/FrpyWkHXf62SVjzPrYwUJw' target='_blank'><img src='images/telegram.jpg' style='margin:10px;' border='0'></a>
+	</div>
+	
+	<div class='row footer-div' style='background-color:#ededed;'>	
+	
+		<div class='col-xs-6 col-sm-4 col-md-2' style='margin-bottom:20px;'>
+			<h4 class='footer-title'>ICO List</h4>
+			<p class='footer-menu-link'><a href='live'>Live ICO</a></p>
+			<p class='footer-menu-link'><a href='upcoming'><span class='footer-menu-link'>Upcoming ICO</a></p>
+			<p class='footer-menu-link'><a href='finished'><span class='footer-menu-link'>Finished ICO</a></p>
+			<p class='footer-menu-link'><a href='https://play.google.com/store/apps/details?id=com.icowatchlist.icowatchlist&hl=en' target='_blank'><span class='footer-menu-link'>Android App</a> <font style='color:red;font-size:7px;'>NEW</font></p>
+			
+		</div>
+		<div class='col-xs-6 col-sm-4 col-md-2' style='margin-bottom:20px;'>
+			<h4 class='footer-title'>Website</h4>
+			<p class='footer-menu-link'><a href='about'><span class='footer-menu-link'>About Us</a></p>
+			<p class='footer-menu-link'><a href='contact'><span class='footer-menu-link'>Contact Us</a></p>
+			<p class='footer-menu-link'><a href='https://icowatchlist.com/blog/'>Our Blog</a></p>
+			<p class='footer-menu-link'><a href='add-ico'><span class='footer-menu-link'>Add Your ICO</a></p>
+		</div>
+		<div class='col-xs-6 col-sm-4 col-md-2' style='margin-bottom:20px;'>
+			<h4 class='footer-title'>Research & Data</h4>
+			<p class='footer-menu-link'><a href='education'><span class='footer-menu-link'>ICO Guide</a></p>
+			<p class='footer-menu-link'><a href='statistics'><span class='footer-menu-link'>ICO Statistics</a></p>
+		</div>
+		<div class='col-xs-6 col-sm-4 col-md-2' style='margin-bottom:20px;'>
+			<h4 class='footer-title'>Social</h4>
+			<p class='footer-menu-link'><a href='https://twitter.com/icowatchlist' target='_blank'><span class='footer-menu-link'>Twitter</a></p>
+			<p class='footer-menu-link'><a href='https://www.facebook.com/icowatchlist/' target='_blank'><span class='footer-menu-link'>Facebook</a></p>
+			<p class='footer-menu-link'><a href='https://t.me/joinchat/FrpyWkHXf62SVjzPrYwUJw'  target='_blank'><span class='footer-menu-link'>Telegram</a></p>
+		</div>
+		<div class='col-xs-6 col-sm-4 col-md-2' style='margin-bottom:20px;'>
+			<h4 class='footer-title'>Developers</h4>
+			<p class='footer-menu-link'><a href='tools/sticker'>Stickers</a></p>
+			<p class='footer-menu-link'><a href='tools/widget'><span class='footer-menu-link'>ICO List Widget</a></p>
+			<p class='footer-menu-link'><a href='tools/stats-widget'><span class='footer-menu-link'>ICO Stats Widgets</a></p>
+			<p class='footer-menu-link'><a href='tools/api'><span class='footer-menu-link'>API</a></p>
+		</div>		
+		<div class='col-xs-6 col-sm-4 col-md-2' style='margin-bottom:20px;'>
+			<h4 class='footer-title'>Legal</h4>
+			<p class='footer-menu-link'><a href='disclaimer'><span class='footer-menu-link'>Disclaimer</a></p>
+			<p class='footer-menu-link'><a href='terms'><span class='footer-menu-link'>Terms Of Use</a></p>
+			<p class='footer-menu-link'><a href='privacy'><span class='footer-menu-link'>Privacy</a></p>
+			<p class='footer-menu-link'><a href='info'><span class='footer-menu-link'>Important Info</a></p>
+		</div>
+
+
+	
+	
+
+	</div>
+	
+	
+</div>
+
+
+
+
+
+<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-597cbed9eca03c31"></script> 
+
+
+
+<script>
+
+$(document).ready(function(){
+    $(".oblink").click(function(){
+        ga('send', 'event', 'ICO-click', $(this).attr("data-slug") , $(this).attr("data-page"));
+    });
+});
+
+</script>
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"aceffb4631","applicationID":"100921906","transactionName":"ZQAGMkdSChICB0VaX1xKMRRcHA0PBwFJHUBaFQ==","queueTime":0,"applicationTime":16,"atts":"SUcFRA9IGRw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+
